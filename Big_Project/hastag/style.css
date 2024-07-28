@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin:0;
+ }
+ ul {
+    list-style: none; 
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ .container {
+    margin: 0px auto;
+    max-width: 960px;
+ }
+
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #000;
+ }
+
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding: 20px 0px;
+    background-color:rgb(0,0,0,.5);
+ }
+
+ .inner-header li :hover {
+    background-color: rgb(2, 0, 0,.2);
+    border-radius: 20px;
+ }
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block;
+}
+
+ul#main-menu{
+    display: flex;
+}
+
+ul#main-menu a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color:#fff;
+    display: block;
+    font-weight: bold;
+}
+
+#banner {
+    display: flex; /* không hiểu cái flex ở đây chi*/
+    justify-content: center;/*sao không xài text align*/
+    align-items: center;/*valign sao hỏng xài*/
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+#banner h1
+{
+    font-size: 100px;
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+.Item
+{
+    display: flex;
+}
+.img-item img{
+    background-size: contain;
+    width: 800px;
+    height: 100%;
+    opacity: 0;
+}
+.text{
+    position: relative;
+    width: 100%;
+}
+.xuanphat{
+    animation: dichuyen;
+    animation-duration: 2s;
+}
+@keyframes dichuyen{
+    0%{left: -100%; width: 190%;}
+    50%{left:-25%; width: 140%;}
+    100%{left: 0%; width: 100%;}
+}
+.text h1 p a{
+    padding-left: 20px;
+}
+.text h1{
+    display: block;
+    padding: 100px 0px;
+    opacity: 0;
+}   
+.text p{
+    left:-100%;
+    width: 100%;
+    position: relative;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
+}
+.button{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(235, 147, 147),rgb(149, 229, 255));
+}
+
+.vanban h1{
+    padding: 50px 0px;
+}
+.vanban p{
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.buton{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #000;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.buton:hover{
+    background-image: linear-gradient(yellow,rgb(114, 215, 233));
+    color:#000;
+}
+.tach{
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.okok{
+    display: flex;
+}
+.anh{
+    position: relative;
+    z-index: -1;
+    right: -50%;
+}
+.anh img{
+    float: right;
+    width: 800px;
+    height: 100%;
+    background-size: contain;
+}
+.doanvan h1 p a{
+    padding-right: 20px;
+}
+.doanvan h1{
+    display: block;
+    text-align: right;
+    padding: 100px 20px;
+    font-size: 40px;
+    opacity: 0;
+}   
+.doanvan p{
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
+    position: relative;
+    z-index: -1;
+    left: -100%;
+}
+.nutbam{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.nutbam:hover{
+    background-image: linear-gradient(rgb(6, 245, 245),rgb(198, 97, 198));
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.More {
+    padding: 30px;
+    margin: 20px; 
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.category{
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    height: 520px;
+    text-align: center;
+}
+.category img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+#category-1{
+    opacity: 0;
+}
+#category-2{
+    opacity: 0;
+}
+#category-3{
+    opacity: 0;
+}
+.category p.type {
+    padding: 20px;
+}
+.category p.typename {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.category hr{
+    margin: 15px;
+}
+.category p.typeEname{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+.lasts {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    margin-top:20px ;
+}
+.trai{
+    border-right: 1px solid  ;
+    width: 30%;
+    height: 217px;
+}
+#anh>img{
+    border-bottom: 1px solid white;
+}
+.phai {
+    border-right: 1px solid;
+    padding:0px 15px;
+}
+.phai>ol>li {
+    list-style-type: none;
+    margin: 0.5%;
+}
+.smal{
+    padding: 10px;
+}

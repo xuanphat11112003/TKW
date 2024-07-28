@@ -1,0 +1,27 @@
+.wrapper{
+    margin: 0%;
+}
+
+.photo {
+    position: relative;
+    border: 0;
+    
+}
+.photo>div{
+    margin: 0;
+    width: 100% !important;
+}
+.lasts {
+    display: block;
+    color: black;
+}
+.lasts> div{
+    width: 100%;
+    height: 50%;
+    border-right: 0;
+    border-bottom: 1px solid;
+}
+#anh img {
+    width: 100%;
+    height: 90px;
+}

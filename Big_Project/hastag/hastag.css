@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.door {
+    background-image: url("https://maacviet-arena.vn/wp-content/uploads/2019/01/cong-nghe-thong-tin-gom-nhung-chuyen-nganh-nao.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 2% 10%;
+}
+.container {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgb(41, 41, 41),black);
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.container>li {
+    display: block;
+    margin: 1%;
+    
+}
+.container h1 {
+    margin: 0;
+}
+.container>li:first-child {
+    flex: 2;
+    margin-right: 2%;
+}
+.container>li:last-child {
+    border: 1px solid;
+    border-radius: 54px;
+    margin: 0;
+    width: 3%;
+    height: 52px;
+    transition-duration: 2s;
+    margin-right: 2%;
+}
+.codinh {
+    position: fixed;
+    top:0;
+    height: 5%;
+    z-index: 100;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.399),rgba(255, 255, 255, 0.388));
+}
+#search>i {
+    padding-top: 15px;
+}
+.container>li>input {
+    border: 0px;
+    background: rgba(0, 0, 0, 0.201);
+    width: 0%;
+    height: 0%;
+    border-radius: 54px;
+    transition-duration: 2s;
+}
+#search:hover {
+    width: 11%;
+    height: 52px;
+}
+#search:hover input{
+    border: 0px;
+    background: rgba(0, 0, 0, 0.201);
+    width: 90%;
+    height: 100%;
+    border-radius: 54px;
+}
+.items{
+    border: 1px solid rgba(0, 0, 0, 0.314);;
+    background-color: rgba(0, 0, 0, 0.703);
+    margin: 2% 10%;
+    position: relative;
+    height: 310px;
+    overflow: hidden;
+}
+.items div {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+}
+.buttons {
+    height: 0;
+}
+.items a{
+    display: block;
+}
+.items img {
+    width: 100%;
+    height: 100%;
+}
+.items span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.34),rgba(0, 0, 255, 0.29),rgba(165, 42, 42, 0.4));
+}
+.item1{
+    left:0;
+}
+.item3 {
+    left: 100%;
+}
+.item2{
+    left: 100%;
+}
+h1 {
+    background-image:linear-gradient(rgb(41, 41, 41),rgba(19, 17, 17, 0.933));
+    color: aliceblue;
+    margin: 0;
+}
+.chose {
+    background-image:linear-gradient(rgb(41, 41, 41),rgba(19, 17, 17, 0.933));
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.chose > a {
+    width: 20%;
+    margin: 4%;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    opacity: 0;
+}
+.chose > a img{
+    width: 100%;
+    height: 50%;
+}
+
+.lasts {
+    background-image: linear-gradient(rgb(41, 41, 41),rgba(19, 17, 17, 0.933));;
+    color: bisque;
+    display: flex;
+}
+.trai{
+    border-right: 1px solid  ;
+    width: 30%;
+    height: 217px;
+}
+#anh>img{
+    border-bottom: 1px solid white;
+}
+.phai {
+    border-right: 1px solid;
+    padding:0px 15px;
+}
+.phai>ol>li {
+    list-style-type: none;
+    margin: 0.5%;
+}

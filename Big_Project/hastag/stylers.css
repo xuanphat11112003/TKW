@@ -1,0 +1,68 @@
+header{
+    width: 100%;
+    position: inherit;
+}
+.container {
+    width: 100%;
+    margin: 0;
+}
+ul#main-menu {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Item{
+    height: 450px;
+    display: block ;
+    position: relative;
+}
+#banner h1{
+    font-size: 400%;
+    text-align: center;
+}
+.img-item {
+    width: 100%;
+}
+.img-item img{
+    width: 100%;
+}
+.text {
+    position: absolute;
+    width: 100%;
+    top : 0;
+}
+.text h1{
+    padding: 5px;
+}
+.tach {
+    background-size: contain;
+}
+.okok {
+    height: 585px;
+    display: block ;
+    position: relative;
+}
+.anh {
+    width: 100%;
+}
+.anh img{
+    width: 100%;
+    height: 585px;
+}
+.doanvan {
+    position:absolute;
+    width : 100%;
+    top: 0;
+    z-index: 100;
+}
+.doanvan h1{
+    text-align: left;
+    padding: 5px;
+}
+.photo {
+    flex-direction: column;
+}
+.photo> div {
+    margin: 5px auto;
+}
+
+

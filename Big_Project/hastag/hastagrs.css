@@ -1,0 +1,19 @@
+#search>i {
+ margin-top: -30px;
+}
+.door {
+    width: 100%;
+    padding: 0;
+}
+.items {
+    margin: 0;
+}
+.buttons {
+    height: 0 !important;
+}
+.chose {
+    height: 100%;
+}
+.chose >a {
+    width: 40%;
+}
